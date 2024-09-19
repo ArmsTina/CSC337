@@ -1,0 +1,54 @@
+/*
+    Dongyoung Yang
+    This css file is for player.html
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+#nav li {
+    list-style-type: none;
+    margin: auto;
+}
+
+#nav a {
+    text-decoration: underline;
+    color: blue;
+    margin: 0 10px;
+}
+
+main {
+    max-width: 1280px;
+    margin: auto;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+div {
+    text-align: center;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+li {
+    margin: auto;
+}
+
+footer {
+    padding: 20px;
+    text-align: right;
+}

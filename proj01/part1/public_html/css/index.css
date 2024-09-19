@@ -1,0 +1,20 @@
+/*
+    Dongyoung Yang
+    This css file is for index.html
+*/
+* {
+    text-align: center;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+li {
+    list-style-type: none;
+    margin: auto;
+}
+#nav a {
+    text-decoration: underline;
+    color: blue;
+    margin: 0 10px;
+}

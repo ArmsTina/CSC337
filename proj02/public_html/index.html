@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Healthcare Services</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./img/red_cross.png" class="rounded float-start" alt="Image of red cross">
+            <h1>Healthcare Services</h1>
+            <img src="./img/stethoscope.png" class="rounded float-end" alt="Image of stethoscope">
+        </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2>Fillout Form</h2>
+            <h3>Your information is securely protected and will only be used when necessary for providing healthcare services. All data will remain confidential, and by providing accurate details, you can receive more personalized care.</h3>
+            <form action="http://147.182.209.240/sp" method="POST">
+                <div class="input-container">
+                    <label for="firstName">First name</label>
+                    <input id="firstName" name="firstName" type="text" required pattern="^[A-Z]+$"><br>
+                    <label for="lastName">Last name</label>
+                    <input id="lastName" name="lastName" type="text" required pattern="^[A-Z]+$"><br>
+                    <label for="primayEmail">Primary Email</label>
+                    <input id="primayEmail" name="primayEmail" type="email" required><br>
+                    <label for="recoverEymail">Recovery Email</label>
+                    <input id="recoverEymail" name="recoverEymail" type="email"><br>
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password" minlength="8" required><br>
+                    <label for="phoneNumber">Phone Num</label>
+                    <input id="phoneNumber" name="phoneNumber" type="tel" pattern="^\d{3}-\d{4}$"><br>
+                    <label for="weightInLbs">Weight in lbs</label>
+                    <input id="weightInLbs" name="weightInLbs" type="number"><br>
+                    <label for="bio">Bio</label>
+                    <textarea id="bio" name="bio" rows="3" cols="30"></textarea><br>    
+                    <label for="birthday">Birthday</label>
+                    <input id="birthday" name="birthday" type="date"><br>
+                    <label for="signForNewsletter_yes">Newsletter sign-up</label><br>
+                    Yes<input id="signForNewsletter_yes" name="signForNewsletter" type="radio" value="yes" required>
+                    No<input id="signForNewsletter_no" name="signForNewsletter" type="radio" value="no" required><br>
+                    
+                    <label for="satisfactionLevel">Satisfaction with company (1-10)</label>
+                    <input id="satisfactionLevel" name="satisfactionLevel" type="range" min="1" max="10" step="1" value="10"><br>
+                    <input type="submit" value="Submit">
+                </div>
+            </form> 
+        </div>
+    </main>
+    <footer>
+        <span>©2024 <a href="https://github.com/ArmsTina">Young</a></span>
+    </footer>
+</body>
+</html>

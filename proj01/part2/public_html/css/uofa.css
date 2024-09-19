@@ -1,0 +1,83 @@
+/*
+    Dongyoung Yang
+    This css file is for uofa.html
+*/
+
+*{
+    margin:0;
+}
+
+h1{
+    text-align: center;
+    font: 30px, bold;
+    font-family: Papyrus;
+    color: white;
+    background-color: #AB0520;
+    padding: 50px;
+}
+
+nav{
+    padding: 30px;
+    background-color: #0C234B;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin: auto;
+}
+
+li a{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium';
+    color: #e58787;
+    text-decoration: underline;
+}
+
+#flag{
+    max-width: 600px;
+    max-height: 300px;
+    border: 5px solid black;
+    border-radius: 10%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#article{
+    text-align: center;
+    align-items: center;
+    background-color: cadetblue;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Courier New';
+    padding-bottom: 100px;
+}
+
+p{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+table{
+    margin: 50px auto;
+}
+
+table, th, td{
+    color:azure;
+    border: 5px double yellow;
+    border-collapse: collapse;
+}
+
+td, caption{
+    font-family: Georgia;
+    padding: 20px;
+}
+
+footer{
+    background-color: gray;
+    padding-right: 20px;
+    text-align:right;
+}
