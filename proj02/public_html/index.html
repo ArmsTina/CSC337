@@ -27,9 +27,9 @@
             <form action="http://147.182.209.240/sp" method="POST">
                 <div class="input-container">
                     <label for="firstName">First name</label>
-                    <input id="firstName" name="firstName" type="text" required pattern="^[A-Z]+$"><br>
+                    <input id="firstName" name="firstName" type="text" required pattern="^[A-Z]{1}[a-z]+$"><br>
                     <label for="lastName">Last name</label>
-                    <input id="lastName" name="lastName" type="text" required pattern="^[A-Z]+$"><br>
+                    <input id="lastName" name="lastName" type="text" required pattern="^[A-Z]{1}[a-z]+$"><br>
                     <label for="primayEmail">Primary Email</label>
                     <input id="primayEmail" name="primayEmail" type="email" required><br>
                     <label for="recoverEymail">Recovery Email</label>
@@ -44,7 +44,7 @@
                     <textarea id="bio" name="bio" rows="3" cols="30"></textarea><br>    
                     <label for="birthday">Birthday</label>
                     <input id="birthday" name="birthday" type="date"><br>
-                    <label for="signForNewsletter_yes">Newsletter sign-up</label><br>
+                    <label for="signForNewsletter_yes">Newsletter sign-up?</label><br>
                     Yes<input id="signForNewsletter_yes" name="signForNewsletter" type="radio" value="yes" required>
                     No<input id="signForNewsletter_no" name="signForNewsletter" type="radio" value="no"><br>
                     <label for="satisfactionLevel">Satisfaction with company (1-10)</label>
