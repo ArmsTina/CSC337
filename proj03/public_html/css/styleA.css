@@ -1,0 +1,51 @@
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: yellow;
+    background-color: rgb(68, 68, 221);
+    width: auto;
+    height: 150px;
+    text-align: right;
+    z-index: 1;
+}
+
+#header h1{
+    margin: 20px 10px 10px 0px;
+}
+
+#header img{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+
+#navigation{
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    bottom: 0px;
+    width: 200px;
+    background-color: rgb(75, 182, 224);
+}
+
+#content{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    right: 0px;
+    bottom: 0px;
+    background-color: skyblue;
+    text-align: center;
+    overflow-y: auto;
+}
+
+#content img{
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
