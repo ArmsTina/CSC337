@@ -6,7 +6,7 @@
     color: yellow;
     background-color: rgb(68, 68, 221);
     width: auto;
-    height: 150px;
+    height: 25%;
     text-align: right;
     z-index: 1;
 }
@@ -16,8 +16,8 @@
 }
 
 #header img{
-    width: 150px;
-    height: 150px;
+    width: auto;
+    height: 25%;
     position: fixed;
     top:0px;
     left:0px;
@@ -25,22 +25,22 @@
 
 #navigation{
     position: fixed;
-    top: 150px;
     left: 0px;
     bottom: 0px;
     width: 200px;
+    height: 75%;
     background-color: rgb(75, 182, 224);
 }
 
 #content{
     position: absolute;
-    top: 150px;
     left: 200px;
     right: 0px;
     bottom: 0px;
     background-color: skyblue;
     text-align: center;
     overflow-y: auto;
+    height: 75%;
 }
 
 #content img{
