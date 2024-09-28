@@ -1,4 +1,4 @@
-# CSC 337 Project Portfolio
+# CSC 337 Project
 
 This repository contains projects completed for CSC 337, showcasing web development skills in HTML, CSS, and JavaScript.
 
