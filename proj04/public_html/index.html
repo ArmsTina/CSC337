@@ -1,0 +1,69 @@
+<!--
+    Dongyoung Yang
+    This is a html file of Project 4
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"> 
+    <title>WTTJ</title>
+</head>
+<body>
+    <div id="inputField">
+        <h1>Welcome to the Jumble</h1>
+        <input id="original" type="text">
+        <div>
+            <label id="numSlider" for="slider">0</label>
+            <input id="slider" type="range" min="0" max="26" value="0">    
+        </div>
+        <input type="button" value="Update Square" onclick="updateSquare()">
+        <table>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>F</td>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+                <td>J</td>
+            </tr>
+            <tr>
+                <td>K</td>
+                <td>L</td>
+                <td>M</td>
+                <td>N</td>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>P</td>
+                <td>Q</td>
+                <td>R</td>
+                <td>S</td>
+                <td>T</td>
+            </tr>
+            <tr>
+                <td>U</td>
+                <td>V</td>
+                <td>W</td>
+                <td>X</td>
+                <td>Y</td>
+            </tr>
+        </table>
+    </div>
+    <div id="caesar">
+        <span id="caesarOutput"></span>
+    </div>
+    <div id="sqaure">
+        <span id="squareOutput"></span>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+/*
+    Dongyoung Yang
+    This is a CSS file for index.html of Project 4.
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Courier;
+}
+
+#inputField{
+    position: absolute;
+    left: 0;
+    background-color: rgb(50, 50, 50);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 100vh;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 20px;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+#caesar, #sqaure{
+    left: 20vw;
+    position: absolute;
+    width: 80vw;
+    height: 50vh;
+    overflow-wrap: break-word;
+}
+
+#caesar{
+    background-color: lightgreen;
+}
+
+#sqaure{
+    top: 50vh;
+    background-color: skyblue;
+}
+
+table, td{
+    border: solid 1px red;
+    border-collapse: collapse;
+    padding: 5px;
+}
